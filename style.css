@@ -1,0 +1,21 @@
+html{
+  padding: 0;
+  margin: 0;
+}
+td, th{
+  border: 1px solid black;
+  width: 80px;
+  height: 20px;
+}
+button,input{
+  margin: 3px;
+}
+td input{
+  border:none;
+}
+tbody tr:nth-last-of-type(odd){
+  background-color:silver;
+}
+tbody tr:nth-last-of-type(even){
+  background-color: #f3f3f3;
+}
